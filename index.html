@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <section class="Day">
+        <p>Day</p>
+        <input type="text" maxlength="2" placeholder="DD">
+        <span class="input-day-error"></span>
+      </section>
+      
+      <section class="Month">
+        <p>Month</p>
+        <input type="text" maxlength="2" placeholder="MM">
+        <span class="input-month-error"></span>
+      </section>
+
+      <section class="Year">
+        <p>Year</p>
+        <input type="text" maxlength="4" placeholder="YYYY">
+        <span class="input-year-error"></span>
+      </section>
+    </header>
+
+    <main>
+
+      <div class="div-arrow">
+        <span class="div-arrow-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+        </span>
+        <span class="div-arrow-line"></span>
+      </div>
+
+      <p class="main-years"><span class="lines">--</span> years</p>
+      <p class="main-months"><span class="lines">--</span> months</p>
+      <p class="main-days"><span class="lines">--</span> days</p>
+    </main>
+
+  </div>
+</body>
+</html>
